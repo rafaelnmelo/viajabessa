@@ -1,0 +1,6 @@
+framework module Pods_viajabessaTests {
+  umbrella header "Pods-viajabessaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
