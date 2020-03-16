@@ -23,7 +23,7 @@ class PackageDetailViewController: UIViewController {
     @IBOutlet weak var people: UIImageView!
     @IBOutlet weak var hotelNight: UIImageView!
     
-    // MARK: configura a tela
+    // MARK: - Configura a tela  -
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class PackageDetailViewController: UIViewController {
         hotelNight.tintColor = UIColor.cyan
     }
     
-    // MARK: Informa quais valores entraram em quais campos
+    // MARK: - Informa quais valores entraram em quais campos - 
     
     func getPackageDescription(image: URL?, title: String?, subTitle: String?, description: String?, price: String?, people: String?, hotelNight: String?) {
         packageImage.kf.setImage(with: image)

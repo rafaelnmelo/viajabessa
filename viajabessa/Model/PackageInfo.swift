@@ -14,7 +14,7 @@ struct PackageInfo: Codable {
     var travelPackage = [Package]()
 }
 
-// MARK: Package contendo os atributos contidos no JSON
+// MARK: - Package contendo os atributos contidos no JSON - 
 
 struct Package: Codable {
     let title: String?

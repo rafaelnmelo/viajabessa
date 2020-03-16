@@ -9,7 +9,7 @@
 import Foundation
 import Alamofire
 
-// MARK: Request no JSON e transforma a resposta em packageInfo
+// MARK: - Request no JSON e transforma a resposta em packageInfo - 
 
 class PackageInfoService {
     

@@ -8,7 +8,7 @@
 
 import Foundation
 
-// MARK: Indica os PROTOCOLOS necessários
+// MARK: - Indica os PROTOCOLOS necessários -
 
 protocol HomePresenterDelegate {
     func provideViewContent(with package: PackageInfo)
@@ -17,18 +17,18 @@ protocol HomePresenterDelegate {
 
 class HomePresenter {
     
-    // MARK: Chama os SERVIÇOS necessários
+    // MARK: - Chama os SERVIÇOS necessários -
     
     let homeService = PackageInfoService()
     var delegate: HomePresenterDelegate?
     
-    // MARK: Inicia a classe referenciando o próprio HomePresenterDelegate como a váriável delegate
+    // MARK: - Inicia a classe referenciando o próprio HomePresenterDelegate como a váriável delegate -
     
     init(reference: HomePresenterDelegate) {
         self.delegate = reference
     }
     
-    // MARK: Função que verifica a resposta e coloca os itens em um Package
+    // MARK: - Função que verifica a resposta e coloca os itens em um Package - 
     
     func buildPackage() {
         self.homeService.loadPackageInfo { (response) in

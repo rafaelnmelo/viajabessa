@@ -29,7 +29,7 @@ class PackageCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
  
-    // MARK: Informa quais valores entraram em quais campos
+    // MARK: - Informa quais valores entraram em quais campos -
     
     func getPackage(package: Package?) {
         packageTitle.text = package?.title
@@ -40,7 +40,7 @@ class PackageCell: UITableViewCell {
         hotelNight.image = hotelNight.image?.withRenderingMode(.alwaysTemplate)
         hotelNight.tintColor = UIColor.cyan
         packageHotelNight.text = package?.hotelNight
-        packagePrice.text = " R$ \(package?.price ?? "")"
+        packagePrice.text = "R$ \(package?.price ?? "")"
         packageImage.layer.cornerRadius = 8
         packageImage.kf.setImage(with: URL(string: package?.image ?? ""))
         if package?.discount == true {
