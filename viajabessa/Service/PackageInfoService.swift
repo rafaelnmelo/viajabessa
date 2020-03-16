@@ -9,6 +9,8 @@
 import Foundation
 import Alamofire
 
+// MARK: Request no JSON e transforma a resposta em packageInfo
+
 class PackageInfoService {
     
     func loadPackageInfo(completionHandler: @escaping (_ response: RequestType<PackageInfo>) -> Void) {

@@ -18,7 +18,8 @@ class PackageCell: UITableViewCell {
     @IBOutlet weak var packageSubtitle: UILabel!
     @IBOutlet weak var packagePeople: UILabel!
     @IBOutlet weak var packageHotelNight: UILabel!
-    
+    @IBOutlet weak var people: UIImageView!
+    @IBOutlet weak var hotelNight: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -27,15 +28,20 @@ class PackageCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
+ 
+    // MARK: Informa quais valores entraram em quais campos
     
     func getPackage(package: Package?) {
         packageTitle.text = package?.title
         packageSubtitle.text = package?.subtitle
         packagePeople.text = package?.people
+        people.image = people.image?.withRenderingMode(.alwaysTemplate)
+        people.tintColor = UIColor.yellow
+        hotelNight.image = hotelNight.image?.withRenderingMode(.alwaysTemplate)
+        hotelNight.tintColor = UIColor.cyan
         packageHotelNight.text = package?.hotelNight
         packagePrice.text = " R$ \(package?.price ?? "")"
-        packageImage.layer.masksToBounds = true
-        packageImage.layer.cornerRadius = packageImage.frame.height/2
+        packageImage.layer.cornerRadius = 8
         packageImage.kf.setImage(with: URL(string: package?.image ?? ""))
         if package?.discount == true {
             packageDiscount.isHidden = false

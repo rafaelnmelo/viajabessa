@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home-->
+        <!--Pacotes-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="viajabessa" customModuleProvider="target" sceneMemberID="viewController">
@@ -22,8 +22,8 @@
                                 <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="sOF-Cw-8D7"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="b6J-2i-tFG"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zf0-9F-9eG"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="fRT-1i-mnY"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -36,7 +36,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Home" id="iYQ-f7-xXk"/>
+                    <navigationItem key="navigationItem" title="Pacotes" id="iYQ-f7-xXk"/>
                     <connections>
                         <outlet property="tableView" destination="zGN-Ou-tga" id="kAr-Ai-mUB"/>
                     </connections>

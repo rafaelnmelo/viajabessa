@@ -251,12 +251,12 @@
 		A9695DA52417E03A00B011CB /* viajabessa */ = {
 			isa = PBXGroup;
 			children = (
+				A95A1361241925F000ADDBD8 /* Assets */,
 				A95A136F241932E700ADDBD8 /* Core */,
 				A95A1360241925E000ADDBD8 /* AppStart */,
 				A95A13622419260500ADDBD8 /* Model */,
 				A95A13632419261400ADDBD8 /* Service */,
 				A95A13642419264700ADDBD8 /* Components */,
-				A95A1361241925F000ADDBD8 /* Assets */,
 				A9695DB22417E03C00B011CB /* Info.plist */,
 			);
 			path = viajabessa;

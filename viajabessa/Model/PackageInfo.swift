@@ -8,9 +8,13 @@
 
 import Foundation
 
+// MARK: Struct contendo o array de Package
+
 struct PackageInfo: Codable {
     var travelPackage = [Package]()
 }
+
+// MARK: Package contendo os atributos contidos no JSON
 
 struct Package: Codable {
     let title: String?

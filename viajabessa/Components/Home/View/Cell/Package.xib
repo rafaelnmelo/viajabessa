@@ -32,7 +32,7 @@
                             <constraint firstAttribute="height" constant="10" id="9a7-6V-H4C"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="35" id="ZZ8-0S-Wti"/>
                         </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -64,7 +64,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="people" translatesAutoresizingMaskIntoConstraints="NO" id="RpS-Au-EWU">
-                        <rect key="frame" x="108" y="6" width="15" height="15"/>
+                        <rect key="frame" x="108" y="10" width="15" height="15"/>
                         <color key="tintColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.32156862745098036" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="15" id="FE7-hd-dfQ"/>
@@ -72,7 +72,7 @@
                         </constraints>
                     </imageView>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hotelNight" translatesAutoresizingMaskIntoConstraints="NO" id="IrU-UE-2BB">
-                        <rect key="frame" x="108" y="65" width="15" height="15"/>
+                        <rect key="frame" x="108" y="61.5" width="15" height="15"/>
                         <color key="tintColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.32156862749999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="15" id="AaN-01-yK1"/>
@@ -80,13 +80,13 @@
                         </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvd-e2-sc2">
-                        <rect key="frame" x="131" y="67.5" width="7" height="12"/>
+                        <rect key="frame" x="131" y="62.5" width="7" height="12"/>
                         <fontDescription key="fontDescription" type="system" pointSize="10"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmx-Ik-0Yl">
-                        <rect key="frame" x="131" y="7" width="10" height="10"/>
+                        <rect key="frame" x="131" y="12" width="10" height="10"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="10" id="0Zj-Hh-QmA"/>
                             <constraint firstAttribute="width" constant="10" id="wNp-4x-laO"/>
@@ -98,20 +98,20 @@
                 </subviews>
                 <constraints>
                     <constraint firstItem="fmx-Ik-0Yl" firstAttribute="leading" secondItem="RpS-Au-EWU" secondAttribute="trailing" constant="8" id="01A-WH-EpZ"/>
-                    <constraint firstItem="RpS-Au-EWU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="0fx-mX-upK"/>
+                    <constraint firstItem="RpS-Au-EWU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="0fx-mX-upK"/>
                     <constraint firstAttribute="trailing" secondItem="clg-LP-sLw" secondAttribute="trailing" constant="10" id="3qP-oP-a4U"/>
                     <constraint firstItem="MGN-2r-Ga7" firstAttribute="top" secondItem="clg-LP-sLw" secondAttribute="bottom" constant="7" id="DAG-Mw-F5L"/>
                     <constraint firstAttribute="trailing" secondItem="bh8-cG-ohg" secondAttribute="trailing" constant="10" id="L44-fa-nER"/>
                     <constraint firstItem="RpS-Au-EWU" firstAttribute="leading" secondItem="OSq-mr-bhO" secondAttribute="trailing" constant="8" id="RDS-Ht-5ke"/>
                     <constraint firstItem="bh8-cG-ohg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="RJq-Ka-9cO"/>
                     <constraint firstItem="Y2M-Fe-yWo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="UI1-Th-ifD"/>
-                    <constraint firstAttribute="bottom" secondItem="IrU-UE-2BB" secondAttribute="bottom" constant="6.5" id="VGN-BW-I9F"/>
+                    <constraint firstAttribute="bottom" secondItem="IrU-UE-2BB" secondAttribute="bottom" constant="10" id="VGN-BW-I9F"/>
                     <constraint firstAttribute="trailing" secondItem="MGN-2r-Ga7" secondAttribute="trailing" constant="10" id="ZRy-dI-sLS"/>
-                    <constraint firstItem="fmx-Ik-0Yl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="ctW-L7-7cI"/>
+                    <constraint firstItem="fmx-Ik-0Yl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="ctW-L7-7cI"/>
                     <constraint firstItem="IrU-UE-2BB" firstAttribute="leading" secondItem="OSq-mr-bhO" secondAttribute="trailing" constant="8" id="e1Q-R1-r8F"/>
                     <constraint firstItem="OSq-mr-bhO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="eAS-Cl-Dew"/>
                     <constraint firstItem="Y2M-Fe-yWo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="g0Q-Ua-B7g"/>
-                    <constraint firstAttribute="bottom" secondItem="Hvd-e2-sc2" secondAttribute="bottom" constant="7" id="oMw-DI-jzT"/>
+                    <constraint firstAttribute="bottom" secondItem="Hvd-e2-sc2" secondAttribute="bottom" constant="12" id="oMw-DI-jzT"/>
                     <constraint firstItem="Hvd-e2-sc2" firstAttribute="leading" secondItem="IrU-UE-2BB" secondAttribute="trailing" constant="8" id="p2d-Fc-Qu0"/>
                     <constraint firstItem="OSq-mr-bhO" firstAttribute="leading" secondItem="Y2M-Fe-yWo" secondAttribute="trailing" constant="-4" id="uwP-2i-IRl"/>
                     <constraint firstItem="MGN-2r-Ga7" firstAttribute="bottom" secondItem="OSq-mr-bhO" secondAttribute="bottom" constant="-1" id="xvM-jc-AdG"/>
@@ -119,15 +119,15 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="hotelNight" destination="IrU-UE-2BB" id="GSE-86-ULp"/>
                 <outlet property="packageDiscount" destination="Y2M-Fe-yWo" id="jSB-eO-nD8"/>
                 <outlet property="packageHotelNight" destination="Hvd-e2-sc2" id="wWD-iR-vkH"/>
-                <outlet property="packageHotelNights" destination="Hvd-e2-sc2" id="9HN-K7-WKH"/>
                 <outlet property="packageImage" destination="OSq-mr-bhO" id="ehq-hy-Evk"/>
                 <outlet property="packagePeople" destination="fmx-Ik-0Yl" id="9QZ-cU-i0b"/>
-                <outlet property="packagePeoples" destination="fmx-Ik-0Yl" id="4LL-cs-wQb"/>
                 <outlet property="packagePrice" destination="MGN-2r-Ga7" id="kH9-wj-voz"/>
                 <outlet property="packageSubtitle" destination="clg-LP-sLw" id="ei9-qB-S2b"/>
                 <outlet property="packageTitle" destination="bh8-cG-ohg" id="cdu-PG-bVu"/>
+                <outlet property="people" destination="RpS-Au-EWU" id="LsD-Mp-92C"/>
             </connections>
             <point key="canvasLocation" x="63.04347826086957" y="169.08482142857142"/>
         </tableViewCell>
